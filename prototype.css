@@ -1,0 +1,280 @@
+/* ------------------------partie1------------------------------ */
+ /* *{
+    outline: 1px solid red;
+}  */
+.top{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    height: 40px;
+    color: gray;
+    background-color: black;
+    font-size: 10px;
+    align-items: center;
+    padding-left: 300px;
+    margin-bottom: -10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.point{
+    height: 3px;
+    width: 3px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    background-color: orangered;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+.bottome{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    gap: 30px;
+    height: 43px;
+}
+
+.bottome1{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 300px; */
+    height: 30px;
+    
+}
+ .bottome p{
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+} 
+
+.bottome hr{
+    /* padding: 10px; */
+    margin: 10px;
+    height: 30px;
+}
+
+.bottome img{
+    width: 100px;
+    height: 63px;
+    margin-top: -20px;
+}
+
+p span{
+    color: white;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.image img{
+    margin-top: 0;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.trois{
+    border: 1px solid orangered;
+    height: 10px;
+    width: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 15px;
+
+}
+
+hr{
+    height: 50px;
+    margin: 0;
+}
+
+/* ----------------------------partie2-------------------------------- */
+
+.partie2{
+    background-image: url(chaussure-nrblc.jpg);
+    height: 500px;
+}
+
+.haut img{
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.bar{
+    width: 50px;
+    height: 1px;
+    border: 1px solid orangered;
+    border-radius: 2px;
+    background-color: orangered;
+    margin-left: 620px;
+}
+
+.mileu{
+    text-align: center;
+    margin-top: -50px;
+}
+
+.milieu h1{
+    margin-left: 400px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    height: 50px;
+}
+
+ .milieu p{
+    margin-left: 450px;
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -30px;
+    height: 10px;
+ }
+
+ .out{
+    margin-left: 600px;
+    color: white;
+    border: 2px solid white;
+    height: 25px;
+    width: 100px;
+    font-size: 9px;
+    text-align: center;
+    align-items: center;
+    padding-top: 14px;
+ }
+
+ .bas{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 620px;
+ }
+
+ .bas div{
+    height: 5px;
+    width: 5px;
+    border: 1px solide gray;
+    border-radius: 50%;
+    background-color: gray;
+ }
+
+ .bas .two{
+    height: 10px;
+    width: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -4px;
+ }
+
+ .gauch{
+    background-image: url(montre2.png);
+    background-color: rgb(255, 111, 0);
+    width: 500px;
+    height: 300px;
+    margin-top: -30px;
+    margin-left: 150px;
+ }
+
+ .droite{
+    background-image: url(chaussure-multiclr2.png);
+    background-color: rgb(128, 128, 120 );
+    width: 500px;
+    height: 300px;
+    margin-top: -30px;
+    
+ }
+
+ fieldset{
+    border: 5px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -50px;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+    text-emphasis-position: start;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 60px;
+ }
+
+ /* .border2 p{
+    border: 5px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+    text-emphasis-position: start;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 60px; 
+
+    
+ }*/
+
+ .sikaw{
+    display: flex;
+    flex-direction: row;
+    
+ }
+
+ .sisouf{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: 30px;
+ }
+
+ .sisouf1{
+    color: white;
+    margin-top: 20px;
+    font-size: 10px;
+    margin-left: 30px;
+ }
+
+ .partie3{
+    background-color: rgb(222, 217, 217);
+ }
+
+ footer{
+    background-color:  rgb(222, 217, 217);
+    height: 100px;
+    text-align: center;
+    margin-top: -30px;
+    
+ }
+
+ footer p{
+    background-color: rgb(222, 217, 217);
+    padding-top: 90px;
+    font-size: 30px;
+    font-weight: bolder;
+ }
+ 
+
+ 
+   
